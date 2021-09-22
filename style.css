@@ -1,0 +1,62 @@
+body {
+    background: #202020;
+    color: white;
+}
+button {
+    font-size: 24px;
+    padding: 20px;
+    border: none;
+    border-bottom: 4px solid white;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline: none;
+    font-weight: bold;
+    position: relative;;
+}
+
+button:hover {
+    background: white;
+    color: #202020;
+}
+
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+#buttons {
+    position: absolute;
+    top: 52%;
+    left: 48.4%;
+    transform: translate(-51.6%, -48%);
+}
+#buttons li {
+    display: inline;
+    padding: 0 30px;
+}
+
+.result-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+.referensi {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+}
+
+.referensi, .referensi a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
